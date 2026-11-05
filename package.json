@@ -1,0 +1,19 @@
+{
+  "name": "prg12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.test.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --runInBand",
+    "build": "node --check src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
