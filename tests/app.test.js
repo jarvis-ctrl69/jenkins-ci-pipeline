@@ -4,7 +4,7 @@ describe("DevOps CI Application Tests", () => {
 
     test("Should return the correct message", () => {
         expect(getMessage()).toBe(
-            "Intentional Failure"
+            "Jenkins CI Pipeline is Working!"
         );
     });
 
